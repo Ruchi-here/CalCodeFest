@@ -17,8 +17,6 @@ The global travel and tourism market is rapidly growing, projected to reach $8.6
 ![Screenshot (892)](https://github.com/Ruchi-here/CalCodeFest/assets/122676573/7d42aae4-c049-48e8-9316-96ab811728bf)
 ![Screenshot (893)](https://github.com/Ruchi-here/CalCodeFest/assets/122676573/8549a8d8-817f-48cd-85e4-5a2aac0ac0e0)
 ![Screenshot (894)](https://github.com/Ruchi-here/CalCodeFest/assets/122676573/3da73a8d-70d9-431f-9360-a547b8ba6b5b)
-![Screenshot (906)](https://github.com/Ruchi-here/CalCodeFest/assets/122676573/1b64885c-1c83-4f3a-8b5a-cce33930816f)
-
 
 
 ## Features
