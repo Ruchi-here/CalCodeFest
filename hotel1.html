@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Description</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hotel-description {
+        max-width: 1000px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hotel-description img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .hotel-description h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .hotel-description p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .facilities {
+        margin-top: 20px;
+        max-width: 600px;
+    }
+
+    .facilities h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .facilities ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .facilities li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        width: 50%; /* Display two facilities per row */
+    }
+
+    .facilities li img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+</style>
+</head>
+<body>
+
+<div class="hotel-description">
+    <img src="{{ url_for('static', filename='hotel1.jpg') }}" alt="Hotel Image">
+    <h2>Hotel Name</h2>
+    <p>Located in a beautiful city, Hotel Name offers luxurious accommodations with stunning views. Whether you are here for business or leisure, our hotel provides exceptional service and comfort.</p>
+
+    <div class="facilities">
+        <h3>Facilities</h3>
+        <ul>
+            <li><img src="{{ url_for('static', filename='facility1.jpg') }}" alt="Facility Icon"> Spacious rooms with modern amenities</li>
+            <li><img src="{{ url_for('static', filename='facility2.jpg') }}" alt="Facility Icon"> Restaurant serving delicious local and international cuisine</li>
+            <li><img src="{{ url_for('static', filename='facility3.jpg') }}" alt="Facility Icon"> Conference rooms for business meetings</li>
+            <li><img src="{{ url_for('static', filename='facility4.png') }}" alt="Facility Icon"> Fitness center and spa for relaxation</li>
+            <li><img src="{{ url_for('static', filename='facility5.jpg') }}" alt="Facility Icon"> 24/7 room service</li>
+            <li><img src="{{ url_for('static', filename='facility6.png') }}" alt="Facility Icon"> Free Wi-Fi throughout the hotel</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
