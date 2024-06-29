@@ -1,2 +1,70 @@
 # CalCodeFest
 Official Hackathon Submission for CalCodeFest
+---
+
+# Travel Planner Application
+
+## Overview
+The Travel Planner Application is designed to assist users in planning their travel experiences by suggesting destinations based on various preferences. It integrates features for hotel and insurance booking, as well as a chatbot powered by a generative AI model for seamless user interaction.
+
+### Problem Statement
+The global travel and tourism market is rapidly growing, projected to reach $8.6 trillion by 2025. Personalized services are increasingly valued by customers, with over 71% expecting tailored interactions. Platforms that simplify the booking process and offer personalized recommendations are crucial for enhancing user satisfaction and engagement.
+
+## Features
+
+### 1. Destination Suggestions
+- The application suggests destinations based on user preferences such as type of place, duration of visit, and preferred activities.
+- User-friendly interfaces streamline the selection process, ensuring an intuitive and stress-free experience.
+
+### 2. Chatbot Integration
+- A generative AI model is integrated to handle user queries related to travel plans and destinations.
+- It enhances user experience by providing real-time assistance and personalized recommendations.
+
+### 3. Hotel and Insurance Booking
+- Users can book hotels directly through the application, choosing from a curated list of options that meet their preferences.
+- Integrated insurance comparison allows users to select and purchase travel insurance based on their specific needs, ensuring coverage during their trip.
+
+### 4. User Recommendation System
+- **Data Collection and Pre-processing:** Automated scripts fetch data from travel databases via APIs, standardizing formats for analysis.
+- **Vectorization and Feature Engineering:** Categorical data is converted into numerical vectors using techniques like Truncated Singular Value Decomposition (SVD) to optimize processing efficiency.
+- **Recommendation Algorithms:** Content-Based Filtering and Collaborative Filtering algorithms recommend destinations based on user profiles and historical interactions.
+- **Handling Cold Start Problem:** Initial recommendations are refined based on user feedback, continuously improving personalized suggestions over time.
+
+## Setup Instructions
+
+### Prerequisites
+- Python 3.x
+- Flask
+- Gemini API Key
+- Pandas, NumPy (for data processing)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your/repository.git
+   cd repository
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up environment variables:
+   - Create a `.env` file and include necessary API keys and configuration details.
+
+4. Run the application:
+   ```bash
+   python app.py
+   ```
+
+5. Access the application:
+   - Open a web browser and go to `http://localhost:5000` to start using the Travel Planner Application.
+
+## Credits
+- Developed by [Kuch bhi]
+
+## License
+- This project is licensed under the [License Name] License - see the LICENSE.md file for details.
+
+---
