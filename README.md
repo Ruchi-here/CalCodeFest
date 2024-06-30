@@ -85,9 +85,9 @@ The global travel and tourism market is rapidly growing, projected to reach $8.6
    - Open a web browser and go to `http://localhost:5000` to start using the Travel Planner Application.
 
 ## Credits
-- Developed by [Kuch bhi]
+- Developed by Team - Kuch bhi
 
 ## License
-- This project is licensed under the [License Name] License - see the LICENSE.md file for details.
+- This project is licensed under the [MIT] License - see the LICENSE.md file for details.
 
 ---
