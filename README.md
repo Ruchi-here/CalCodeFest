@@ -1,5 +1,5 @@
-# CalCodeFest
-Official Hackathon Submission for CalCodeFest
+DeKUT Hack
+Official Hackathon Submission for DeKUT Hack
 ---
 
 # Travel Planner Application
