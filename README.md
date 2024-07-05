@@ -2,7 +2,7 @@ DeKUT Hack
 Official Hackathon Submission for DeKUT Hack
 ---
 
-# Travel Planner Application
+# Reise Guide (Travel Planner Application)
 
 ## Overview
 The Travel Planner Application is designed to assist users in planning their travel experiences by suggesting destinations based on various preferences. It integrates features for hotel and insurance booking, as well as a chatbot powered by a generative AI model for seamless user interaction.
