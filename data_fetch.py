@@ -59,7 +59,7 @@ def fetch_place_details(api_key, place_id):
         return None
 
 # Main part of the script
-api_key = "AIzaSyDebNRgPqcF1wC8kSghdkqaaaSk_1jXVDw"  # Replace with your API Key
+api_key = ""  # Replace with your API Key
 location = "28.5562,77.1000"  # Approximate coordinates of IGI Airport T3
 
 # Fetch initial list of places
